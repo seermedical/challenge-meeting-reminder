@@ -1,7 +1,14 @@
 import uuid from 'uuid/v4'
 
 // A non-exhaustive list of Seer's canine companions.
-const meetingCompanion = ['Crumpet', 'Daisy', 'Nala', 'Padfoot', 'Oscar']
+const meetingCompanion = [
+  'Crumpet',
+  'Daisy',
+  'Nala',
+  'Padfoot',
+  'Oscar',
+  'Willa',
+]
 
 const generateMeeting = offset => ({
   time: Date.now() + offset,
